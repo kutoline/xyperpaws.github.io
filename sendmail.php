@@ -19,4 +19,4 @@ $subject = "Заказ с формы на сайте xyberpaws.io";
 $message = "Поступил новый заказ с сайта xyberpaws.io:\n{$order}";
 
 
-mail($to, $subject, $message);
+mail($to, $subject, $message, $headers);
