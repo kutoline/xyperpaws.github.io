@@ -10,27 +10,26 @@
   <body>
     <div class="page">
       <header class="header">
-        <nav class="header__menu-nav">
-          <ul class="header__menu-list">
-            <li class="header__menu-item"><a class="header__menu-link" data-anchor="section-undefined">
-                <div class="header-menu__link-number"></div>
-                <div class="header-menu__link-text">About</div></a></li>
-            <li class="header__menu-item"><a class="header__menu-link" data-anchor="section-undefined">
-                <div class="header-menu__link-number"></div>
-                <div class="header-menu__link-text">What We Do</div></a></li>
-            <li class="header__menu-item header__menu-item--logo"><a class="header__menu-link" data-anchor="section-undefined">
-                <picture class="core-picture header__logo"><!----><!---->
-                  <source srcset="./assets/images/logo.svg" media="(min-width: 1280px)"><img class="lazyload" src="./assets/images/logo.svg" alt="slide" title="slide">
-                </picture></a></li>
-            <li class="header__menu-item"><a class="header__menu-link" data-anchor="section-undefined">
-                <div class="header-menu__link-number"></div>
-                <div class="header-menu__link-text">Cases</div></a></li>
-            <li class="header__menu-item"><a class="header__menu-link" data-anchor="section-undefined">
-                <div class="header-menu__link-number"></div>
-                <div class="header-menu__link-text">Contact</div></a></li>
-          </ul>
-          <!--+header-menu(blockData.menu, 'header__menu')-->
-        </nav>
+        <div class="header__menu-nav"><a class="header__menu-link header__menu-link--mobile-logo" href="/index.html">
+            <picture class="core-picture header__logo"><!----><!---->
+              <source srcset="./assets/images/logo.svg" media="(min-width: 1280px)"><img class="lazyload" src="./assets/images/logo.svg" alt="slide" title="slide">
+            </picture></a>
+          <input id="menu-toggle" type="checkbox">
+          <label class="header__menu-button-container" for="menu-toggle">
+            <div class="header__menu-button"></div>
+          </label>
+          <div class="header__menu-container">
+            <ul class="header__menu-list">
+              <li class="header__menu-item"><a class="header__menu-link" href="#whatwedo" data-anchor="section-undefined">What We Do</a></li>
+              <li class="header__menu-item header__menu-item--logo"><a class="header__menu-link" data-anchor="section-undefined" href="/index.html">
+                  <picture class="core-picture header__logo">
+                    <source srcset="./assets/images/logo.svg" media="(min-width: 1280px)"><img class="lazyload" src="./assets/images/logo.svg" alt="slide" title="slide">
+                  </picture></a></li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#cases" data-anchor="section-undefined">Cases</a></li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#contact" data-anchor="section-undefined">Contact</a></li>
+            </ul>
+          </div>
+        </div>
       </header>
       <script>
         window.INIT = {
@@ -83,7 +82,7 @@
         </div>
       </footer>
     </div>
-    <script type="text/javascript" src="assets/scripts/chunk/1-62cbe46405ec56883e15.chunk.js" async defer></script>
+    <script type="text/javascript" src="assets/scripts/chunk/1-cf8907ec9f4b5b1cad65.chunk.js" async defer></script>
     <script type="text/javascript" src="assets/scripts/main.bundle.js" async defer></script>
   </body>
 </html>
