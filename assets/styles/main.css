@@ -496,7 +496,7 @@ button.swiper-pagination-bullet {
     padding: 0 2.66667vw;
     margin: auto;
     max-width: 100vw;
-    font-weight: 700
+    font-weight: 500
 }
 
 @media (min-width: 1024px) {
@@ -671,7 +671,7 @@ button.swiper-pagination-bullet {
 .title {
     font-family: Druk Condensed Super, sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 13.33333vw;
     line-height: 10.66667vw;
     text-align: center;
@@ -1248,7 +1248,7 @@ button.swiper-pagination-bullet {
 
 .case-study__item-title {
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 10.66667vw;
     line-height: 8.53333vw;
     letter-spacing: .03em;
@@ -1936,7 +1936,7 @@ button.swiper-pagination-bullet {
     line-height: 16vw;
     font-size: 18.66667vw;
     text-align: center;
-    font-weight: 700;
+    font-weight: 500;
     letter-spacing: .03em;
     text-transform: uppercase;
     color: #004cfe;
@@ -2459,7 +2459,7 @@ button.swiper-pagination-bullet {
 .about__title {
     display: block;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 4.86111vw;
     line-height: 3.88889vw;
     text-align: center;
